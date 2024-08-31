@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Formulários</title>
+</head>
+<body>
+
+    <h2>Cadastro</h2>
+    <hr>
+    <form>
+
+        <table>
+
+        <tr>
+            <td><label>Nome:</label></td>
+            <td><input name="nome" type="text" required></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td> <input name="email" type="email"></td>
+        </tr>
+       
+        <tr>
+            <td><label>Telefone:</label></td>
+            <td><input name="fone" type="tel" required></td>
+        </tr>
+
+       <tr>
+        <td><label for="senha">Senha: </label></td>
+        <td><input type="password" id="senha" name="senha"></td>
+       </tr> 
+        
+       <tr>
+        <td><label>Idiomas:</label></td>
+        <td><input type="checkbox" name="idioma" value="Inglês">Inglês
+            <input type="checkbox" name="idioma" value="Espanhol">Espanhol
+            <input type="checkbox" name="idioma"value="Alemão">Alemão
+            <input type="checkbox" name="idioma"value="Português" checked>Português</td>
+       </tr>
+       
+        <tr>
+            <td><label for="">Sexo:</label></td>
+            <td><input type="radio" name="sexo" value="Masculino" checked>Masculino
+                <input type="radio" name="sexo" value="Feminino">Feminino</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="Enviar"></td>
+            <td><input type="reset" value="Limpar"></td>
+        </tr>        
+
+      </table>
+    </form>
+    
+        
+</body>
+</html>
